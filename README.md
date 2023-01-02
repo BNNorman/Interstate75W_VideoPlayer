@@ -12,20 +12,8 @@ The I75W, in my case is running Adafruit CircuitPython 8.0.0-beta.6 on 2022-12-2
 
 This is a standard Python (3.10) which reads an MP4 video using openCV. CircuitPython cannot read MP4 files and the available disc space is too low to accomodate a video file hence the reason for sending the frames from a remote device.
 
-# VideoReceiver.py
+The program uses the frame rate of the video source to control the rate at which frames are sent to the host machine.
 
-This is CircuitPython code to received the video frames and throw them onto the matrix. It expects 8192 bytes per frame which is 64x64x2 - CircuitPython uses RGB565 to hold pixel values in uint16 variables. When this runs it tells you the IP address and port number to configure the VideoSender.py for.
+# interstate75W
 
-# MyMatrix.py
-
-This is the CircuitPython rgbmatrix definition for my matrix.
-
-# secrets.py
-
-This file holds the network SSID and password. It has the following format:-
-```
-secrets = {
-    'ssid' : 'your ssid',
-    'password' : 'your password',
-    }
-```
+This folder contains the code which runs on the interstate 75W.
