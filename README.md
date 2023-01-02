@@ -1,6 +1,6 @@
 # Readme.md
 
-This repository is my Python code which allows one device to send video frames to a Pimoroni Interstate 75W (I75W) running CircuitPython from another device running Python. The 'other' device must be able to perform fast openCV and numpy operations in order to maintain a decent frame rate.
+This repository is my Python code which allows one device to send video frames to a Pimoroni Interstate 75W (I75W), running CircuitPython, from another device running Python. The 'other' device must be able to perform fast openCV and numpy operations in order to maintain a decent frame rate.
 
 In my setup the video sender is my Windows PC and the Interstate 75W (I75W) is the video receiver. The I75W is connected to a 64x64 led matrix formed by daisy chaining two HUB75 64x32 matrices.
 
