@@ -32,6 +32,9 @@ Using the Interstate75 schematic the Matrix pins are as follows. You can see thi
 	ROW_C	GPIO8
 	ROW_D	GPIO9
 	ROW_E	GPIO10
+	CLK	GPIO11
+	LAT	GPIO12
+	OE	GPIO13
 ```
 
 # VideoReceiver.py
