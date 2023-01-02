@@ -1,4 +1,5 @@
-# MyMatrix 64x64 but tiled one above other (2 tiles)
+# MyMatrix.py 
+# My matrix is two 64x32 daisy chained (not serpentine) but tiled one above other (2 tiles)
 # Uses Adafruit CircuitPython 8.0.0-beta.6 on 2022-12-21; Raspberry Pi Pico W with rp2040
 # May also work with later 8.0.0 betas/releases
 #
