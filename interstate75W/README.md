@@ -21,12 +21,12 @@ Adafruit CircuitPython 8.0.0-beta.6 on 2022-12-21; Raspberry Pi Pico W with rp20
 Using the Interstate75 schematic the Matrix pins are as follows. You can see this in MyMatrix.py.
 
 ```
-	R0		GPIO0
-	G0		GPIO1
-	B0		GPIO2
-	R1		GPIO3
-	G1		GPIO4
-	B1 		GPIO5
+	R0	GPIO0
+	G0	GPIO1
+	B0	GPIO2
+	R1	GPIO3
+	G1	GPIO4
+	B1 	GPIO5
 	ROW_A	GPIO6
 	ROW_B	GPIO7
 	ROW_C	GPIO8
